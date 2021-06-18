@@ -39,4 +39,30 @@
 #     else:
 #         print("Opção Inválida!")
     
+# Escreva um função que receba um número e informe
+# Se é par ou impar
+def calcPar(num):
+    if num % 2 == 0:
+        print(f'O número {num} é par')
+    else:
+        print(f'O número {num} é Impar')
 
+num = int(input('Digite um número'))
+calcPar(num)
+
+#Criar um sistema de uma loja de roupas
+
+#O sistema conterá as seguintes funcoes:
+
+#verProdutos -> lista com dicionarios
+    #{nome: Camiseta Hulk, tamanho: M, preço: 390}
+
+#addProdutoCarrinho -> adiciona um produto ao seu carrinho
+
+#addDesconto -> se utilizado no carrinho terá 20% de desconto
+
+#removeProdutoCarrinho -> remove um produto do carrinho
+
+#checkout -> mostra total da compra
+
+#mainMenu -> menu principal do sistema
