@@ -41,14 +41,14 @@
     
 # Escreva um função que receba um número e informe
 # Se é par ou impar
-def calcPar(num):
-    if num % 2 == 0:
-        print(f'O número {num} é par')
-    else:
-        print(f'O número {num} é Impar')
+# def calcPar(num):
+#     if num % 2 == 0:
+#         print(f'O número {num} é par')
+#     else:
+#         print(f'O número {num} é Impar')
 
-num = int(input('Digite um número'))
-calcPar(num)
+# num = int(input('Digite um número'))
+# calcPar(num)
 
 #Criar um sistema de uma loja de roupas
 
@@ -66,3 +66,6 @@ calcPar(num)
 #checkout -> mostra total da compra
 
 #mainMenu -> menu principal do sistema
+
+
+
