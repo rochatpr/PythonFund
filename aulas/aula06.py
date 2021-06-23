@@ -139,5 +139,6 @@ def atualizar():
                 print('Cancelado pelo usuário')
                 break
         else:
-            print('Registro não encontrado')
+            print('Registro não encontrado') 
             break
+main()
